@@ -1,0 +1,320 @@
+* 
+{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color:#282828;
+}
+
+#contener
+{
+    width: 100%;
+    height: 100%;
+}
+
+#main
+{
+    width: 750px;
+    height: 400px;
+}
+
+#search-box
+{
+    width: 100%;
+    height: 200px;
+}
+
+#answer-box
+{
+    width: 100%;
+    height: 300px;
+    background-color: #474747;
+    opacity: 0;
+    border-radius: 20px;
+}
+
+#search-bar
+{
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #383838;
+}
+
+#search-bar:hover
+{
+    animation: rozsun 1s forwards;
+}
+
+#search-input
+{
+    width: 250px;
+    height: 100%;
+    float: left;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:#383838;
+}
+
+#search-button
+{
+    width: 50px;
+    height: 100%;
+    background-color: #383838;
+    float: left;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#gps-button
+{
+    width: 50px;
+    height: 100%;
+    background-color: #383838;
+    float: left;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#search
+{
+    width: 250px;
+    background: none;
+    outline: none;
+    border: none;
+    height: 48px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    font-family: Comfortaa;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+#search-bar:hover
+{
+    cursor: pointer;
+}
+
+#title
+{
+    width: 400px;
+    height: 50px;
+    color:#FFAF0A;
+    font-family: Comfortaa;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+#lupa
+{
+    font-size: 21px;
+    color: #FFAF0A;
+    background: none;
+    padding-top: 14px;
+    padding-left: 20px;
+}
+
+#lupa:hover
+{
+    color:white;
+    font-size: 22px;
+}
+
+#kol1
+{
+    height: 100%;
+    width: 250px;
+    float: left;
+    background: none;
+}
+
+#kol2
+{
+    height: 100%;
+    width: 250px;
+    float: left;
+    background: none;
+}
+
+#kol3
+{
+    height: 100%;
+    width: 250px;
+    float: left;
+    background: none;
+}
+
+#city
+{
+    width: 100%;
+    height: 65px;
+    color:#FFAF0A;
+    font-family: Comfortaa;
+    font-size: 25px;
+    padding-top: 35px;
+    background: none;
+}
+
+#image
+{
+    width: 100%;
+    height: 170px;
+    background: none;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+#weather
+{
+    width: 100%;
+    height: 50px;
+    padding-top: 25px;
+    background: none;
+}
+
+#wind
+{
+    width: 100%;
+    height: 50px;
+    padding-top: 25px;
+    background: none;
+}
+
+#cisnienie
+{
+    width: 100%;
+    height: 50px;
+    padding-top: 25px;
+    background: none;
+}
+
+#wilg
+{
+    width: 100%;
+    height: 50px;
+    padding-top: 25px;
+    background: none;
+}
+
+#temp
+{
+    width: 100%;
+    height: 65px;
+    padding-top: 35px;
+    background: none;
+}
+
+#max
+{
+    width: 100%;
+    height: 65px;
+    padding-top: 35px;
+    background: none;
+}
+
+#min
+{
+    width: 100%;
+    height: 65px;
+    padding-top: 35px;
+    background: none;
+}
+
+#geo
+{
+    color:#FFAF0A;
+    font-size: 30px;
+    background: none;
+}
+
+#geo2
+{
+    color:#FFAF0A;
+    font-size: 25px;
+    background: none;
+    padding-top: 10px;
+}
+
+#geo2:hover
+{
+    color:white;
+    font-size: 26px;
+}
+
+.big
+{
+    color:#FFAF0A;
+    font-family: Comfortaa;
+    font-size: 25px;
+}
+
+.mini
+{
+    color: white;
+    font-family: Comfortaa;
+    font-size: 20px;
+}
+
+.orange
+{
+    color: #FFAF0A;
+    background: none;
+}
+
+#icon
+{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    background: none;
+}
+
+#xd
+{
+    color: white;
+    font-size: 25px;
+    font-family: Comfortaa;
+    opacity: 0;
+    margin-bottom: 10px; 
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #FFAF0A; /* Blue */
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#error
+{
+    color: white;
+    font-size: 25px;
+    font-family: Comfortaa;
+}
+
+.temp:hover
+{
+    color: rgb(190, 128, 3);
+    cursor: pointer;
+}
+
+#stopka
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(236, 158, 0);
+    color: #282828;
+    font-family: Comfortaa;
+    font-size: 20px;
+    padding-top: 5px;
+}
