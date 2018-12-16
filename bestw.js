@@ -9,7 +9,7 @@ var wilg;
 var weather;
 function search()
 {
-  $.getJSON('http://api.openweathermap.org/data/2.5/weather?q='+city+'&APPID=3d5391c36408b1f1e2dcbc592bdf41a2&units=metric', function(json) {
+  $.getJSON('https://api.openweathermap.org/data/2.5/weather?q='+city+'&APPID=3d5391c36408b1f1e2dcbc592bdf41a2&units=metric', function(json) {
   dane = json;
   temp = dane.main.temp;
   temp_max = dane.main.temp_max;
